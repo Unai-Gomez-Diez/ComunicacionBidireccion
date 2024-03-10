@@ -1,0 +1,5 @@
+<app-child-component [frase]="frase" (outputEvent)="handleOutputEvent($event)"></app-child-component>
+<div *ngIf="receivedValue">
+  <p>Evento recibido en el padre: {{ receivedValue }}</p>
+</div>
+
